@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\portable">
+      <UniqueIdentifier>{4c669d2b-f9f3-4017-a84a-906f2e012545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ffmpeg">
+      <UniqueIdentifier>{5a788a80-11fb-4662-b5ee-06456d7e2d81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ffmpeg">
+      <UniqueIdentifier>{21420e32-0f84-4370-874f-6f3ea4f717c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\portable">
+      <UniqueIdentifier>{bcc2b071-3b1a-4a69-b7e8-33f6b43b56ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\ffmpegencoder.cpp">
+      <Filter>Source Files\ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\frame.cpp">
+      <Filter>Source Files\ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="ffmpeg\packet.cpp">
+      <Filter>Source Files\ffmpeg</Filter>
+    </ClCompile>
+    <ClCompile Include="portable\binaryportableimage.cpp">
+      <Filter>Source Files\portable</Filter>
+    </ClCompile>
+    <ClCompile Include="portable\pgmimage.cpp">
+      <Filter>Source Files\portable</Filter>
+    </ClCompile>
+    <ClCompile Include="portable\ppmimage.cpp">
+      <Filter>Source Files\portable</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="portable\binaryportableimage.h">
+      <Filter>Header Files\portable</Filter>
+    </ClInclude>
+    <ClInclude Include="portable\pgmimage.h">
+      <Filter>Header Files\portable</Filter>
+    </ClInclude>
+    <ClInclude Include="portable\ppmimage.h">
+      <Filter>Header Files\portable</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\ffmpegencoder.h">
+      <Filter>Header Files\ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\frame.h">
+      <Filter>Header Files\ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\packet.h">
+      <Filter>Header Files\ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="ffmpeg\preprocesor.h">
+      <Filter>Header Files\ffmpeg</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
